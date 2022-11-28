@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Telefones em landscape e abaixo */
+@media (max-width: 480px) {
+  .hidden { visibility: hidden; }
+
+  nav ul li { background: none !important; }
+
+  /* footer */
+  footer .linha-vertical { border-left: none; }
+}
+/* Telefone em landscape a tablet em portrait */
+@media (max-width: 767px) {
+  .hidden { visibility: hidden; }
+
+  nav ul li { background: none !important; }
+
+  /* footer */
+  footer .linha-vertical { border-left: none; }
+}
